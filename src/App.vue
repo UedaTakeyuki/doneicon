@@ -1,28 +1,37 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+
+    <v-main>
+      <v-icon   
+        x-large
+        color="primary"
+      >
+        $vuetify.icons.SvgIconDone
+      </v-icon>
+      <v-btn
+        class="mx-2"
+        fab
+        dark
+        large
+        color="purple"
+      >
+        <v-icon dark>
+          $SvgIconDone
+        </v-icon>
+      </v-btn>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>

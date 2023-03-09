@@ -1,15 +1,35 @@
 {
-  "name": "testcomp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "doneicon",
+  "version": "1.0.0",
+  "description": "A custome icon of done for vuetify",
+  "author": "Dr. Takeyuki UEDA",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuetify",
+    "icon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UedaTakeyuki/doneicon.git"
+  },
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name DoneIcon --formats umd ./src/build-entry.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./src/build-entry.js",
+  "files": [
+    "dist/*",
+    "src/components/SvgIconDone.vue",
+    "src/build-entry.js"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.19",
@@ -18,7 +38,11 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
   },
   "eslintConfig": {
     "root": true,
