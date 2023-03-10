@@ -1,6 +1,6 @@
 {
   "name": "doneicon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "A custome icon of done for vuetify",
   "author": "Dr. Takeyuki UEDA",
@@ -14,6 +14,8 @@
   "files": [
     "dist/*",
     "src/components/SvgIconDone.vue",
+    "src/components/Hello.vue",
+    "src/components/Hello2.vue",
     "src/build-entry.js"
   ],
   "dependencies": {
