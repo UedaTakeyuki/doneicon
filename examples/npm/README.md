@@ -1,4 +1,4 @@
-# doneicon
+# npm
 
 ## Project setup
 ```

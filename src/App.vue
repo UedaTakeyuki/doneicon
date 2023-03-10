@@ -1,37 +1,15 @@
 <template>
   <v-app>
-
     <v-main>
-      <v-icon   
-        x-large
-        color="primary"
-      >
-        $vuetify.icons.SvgIconDone
-      </v-icon>
-      <v-btn
-        class="mx-2"
-        fab
-        dark
-        large
-        color="purple"
-      >
-        <v-icon dark>
-          $SvgIconDone
-        </v-icon>
-      </v-btn>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 export default {
-  name: 'App',
-
-  components: {
-  },
-
-  data: () => ({
-    //
-  }),
-};
+  mounted(){
+    console.log("window",window)
+  }
+}
 </script>
