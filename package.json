@@ -1,6 +1,6 @@
 {
   "name": "doneicon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "A custome icon of done for vuetify",
   "author": "Dr. Takeyuki UEDA",
@@ -16,6 +16,7 @@
     "src/components/SvgIconDone.vue",
     "src/components/Hello.vue",
     "src/components/Hello2.vue",
+    "src/components/Hello3.vue",
     "src/build-entry.js"
   ],
   "dependencies": {
@@ -25,7 +26,6 @@
     "vuetify": "^2.6.0"
   },
   "devDependencies": {
-    "@mdi/js": "^7.1.96",
     "@vue/cli-plugin-babel": "~4.5.19",
     "@vue/cli-plugin-eslint": "~4.5.19",
     "@vue/cli-plugin-router": "~4.5.19",
