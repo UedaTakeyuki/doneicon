@@ -3378,10 +3378,10 @@ domutils@^2.5.2, domutils@^2.8.0:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
 
-doneicon@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/doneicon/-/doneicon-1.0.3.tgz#abf936b7745b34ae2e401e9915c9059f9e56020e"
-  integrity sha512-Z9NhHq8wRVsAEvvhxfSxeTsw2Tvno3Lbc7KkF71pC0aCikLR3wIn7BvymnDfRGlq5USLBOXUAK1eVTPJZrCjdQ==
+doneicon@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/doneicon/-/doneicon-1.0.4.tgz#daf42419ea549f8bcbfa66ae74a766f501676745"
+  integrity sha512-SgGNegLFkxl48c1LM51+cEfPQM5Yoe6R9rQY1B8Wj6wdgQS6y1rmWWcYSh1JaLLRf1pZzCcetVWnMuxzE7Exgw==
   dependencies:
     core-js "^3.6.5"
     vue "^2.6.11"

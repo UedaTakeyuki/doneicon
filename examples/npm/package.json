@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "doneicon": "^1.0.3",
+    "doneicon": "^1.0.4",
     "vue": "^2.6.11",
     "vuetify": "^2.6.0"
   },
